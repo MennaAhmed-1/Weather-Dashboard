@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+
+    <!-- icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <title>weather</title>
+  </head>
+  <body>
+  
+      <div class="head">
+        <h2 class="main-header">Weather Dashboard</h2>
+       <div class="search-section">
+          <input class="search-bar"type="text" placeholder="Search City..." />  
+        </div>
+        </div>
+        
+   <div class="big-container">
+      <div class="container">
+      <div class="heading">
+        <span class="sub-heading">Forecast in <strong>Egypt, Cairo</strong></span>
+        <div class="date-heading">Thursday, February 23 at 04:39 PM</div>
+      </div>
+    
+
+      <div class="card-1">
+        <div class="content1">
+          <div class="degree-1"> <strong>24 &#8451;</strong></div>
+          <div class="degree-2">
+            <p class="degree">High 24 &#8451;</p>
+            <p class="degree">low 19 &#8451;</p>
+          </div>
+        </div>
+
+      <div class="content2">
+        <div class="content-left">
+          <p>Clear Sky</p>
+          <p>Feels like 24 &#8451 </p>
+      
+        </div>
+          <div class="content-right">
+           <img id="my-img"src="img/svg3.svg"/>   
+        </div>
+        </div>
+    </div>
+    <div class="card-2">
+      <ul>
+        <li >
+          <span> Visibility</span>
+          <span> 10Km <ion-icon class="icon"name="eye-outline"></ion-icon></span>
+        </li>
+        <li >
+          <span> Dew Point</span>
+          <span> &#8451 <ion-icon class="icon"name="water-outline"></ion-icon></span>
+        </li>
+        <li >
+          <span>Humidity</span>
+          <span>79% <ion-icon class="icon"name="flower-outline"></ion-icon></span>
+        </li>
+        <li>
+          <span> Wind</span>
+          <span> 1km/hr <ion-icon class="icon"name="bonfire-outline"></ion-icon></span>
+        </li>
+        <li >
+          <span> Cloudiness</span>
+          <span> 34% <ion-icon class="icon"name="cloudy-outline"></ion-icon></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="card-3">
+      
+    <img class="img" src="img/weather.png" alt="weather">
+    <img class="img1" src="img/sunset.jpg" alt="weather">
+      <div class="img-text">
+       
+        <div class="sunrise">
+      <ion-icon name="sunny-outline"></ion-icon>
+      
+      <span > Sunrise</span>
+      <span > 06:44 AM</span>
+    </div>
+    
+    <div class="sunset">
+      <ion-icon name="moon-outline"></ion-icon>
+      
+      <span > Sunset</span>
+      <span > 05:46 PM</span>
+    </div>
+    </div>
+ 
+    </div>
+  </div>
+  <button class="right-button">
+   
+      <div> Tomorrow</div>
+      <ion-icon name="sunny-outline"></ion-icon>
+      <div> Sunrise</div>
+        <p>06:38 AM</p>
+        <p>High 18.4 &#8451;</p>
+        <ion-icon class="page-icon"name="caret-forward-outline"></ion-icon>
+        <ion-icon name="moon-outline"></ion-icon>
+        <div> Sunset</div>
+        <p>05:41 PM</p>
+        <p>low 9 &#8451;</p>
+     
+   
+  </button>
+  <button a href="#" class="left-button ">
+ 
+    <div> Yesterday</div>
+    <ion-icon name="sunny-outline"></ion-icon>
+    <div> Sunrise</div>
+      <p>06:38 AM</p>
+      <p>High 18.4 &#8451;</p>
+      <ion-icon class="page-icon" name="caret-back-outline"></ion-icon>
+
+      <ion-icon name="moon-outline"></ion-icon>
+      <div> Sunset</div>
+      <p>05:41 PM</p>
+      <p>low 9 &#8451;</p>
+    </button>
+  </div>
+  </body>
+</html>
